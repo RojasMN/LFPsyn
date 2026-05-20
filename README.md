@@ -38,15 +38,7 @@ The core logic is modularized in the following files:
 * **`synaptic_balance.py`**:
     * Contains the main pipeline for large-scale Monte Carlo simulations.
     * `eib_sim_parallel`: Runs parallelized simulations of varying E/I ratios, computing both $\Psi$ and Spectral features for each iteration.
-  
-## Installation and Dependencies
-To run the simulations, you will need the following Python packages:
-
-```bash
-pip install numpy pandas matplotlib scipy tqdm nitime specparam
-
-```
-
+      
 ## References
 
 For further reading, please consult the following literature. The **$\Psi$ pattern** and its applications as a signal analysis tool for recovering transients are detailed in **Díaz et al. (2023)**. 
